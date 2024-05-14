@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+html {
+  font-size: 62.5%;
+}
+button {
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: rgba(0, 128, 0, 0.7);
+  border: 3px solid white;
+  cursor: pointer;
+  font-size: 2rem;
+  outline: none;
+}
+button:hover {
+  background-color: rgb(0, 128, 0);
+}
